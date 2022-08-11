@@ -2,7 +2,7 @@ import { ethers } from 'ethers'
 import { Address } from 'cluster'
 
 const provider = new ethers.providers.JsonRpcProvider(
-  'https://rinkeby.infura.io/v3/635ec189c48c44f7a7d51569784ac00e'
+  'https://mainnet.infura.io/v3/635ec189c48c44f7a7d51569784ac00e'
 )
 
 const poolAddress = '0x8ad599c3A0ff1De082011EFDDc58f1908eb6e6D8'
